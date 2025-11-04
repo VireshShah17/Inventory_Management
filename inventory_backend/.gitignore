@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+
+# === Django / Project Files ===
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# === Environment Variables ===
+.env
+*.env
+secrets.json
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Migrations cache ===
+*/migrations/__pycache__/
+
+# === Django Migrations ===
+# Ignore all migration files except the __init__.py file
+*/migrations/*
+!*/migrations/__init__.py
