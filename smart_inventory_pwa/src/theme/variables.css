@@ -1,2 +1,6 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+body, ion-app, ion-content, ion-title {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+}
